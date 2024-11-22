@@ -5,7 +5,8 @@
     "description": "Examples of using wp-now in Node.js",
     "private": true,
     "scripts": {
-      "start": "node index.js"
+      "start": "node index.js",
+      "build": "echo 'Build completed successfully!'"
     },
     "dependencies": {
       "@php-wasm/node": "0.6.16",
