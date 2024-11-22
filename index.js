@@ -10,7 +10,7 @@ async function runWpNow() {
     console.log('runWpNow');
     // Create paths relative to this example file
     const projectPath = join(__dirname, 'wp-test');
-    const absoluteUrl = 'http://127.0.0.1:8080';  // Changed to 127.0.0.1
+    const absoluteUrl = 'http://0.0.0.0:8080';  // Changed to 127.0.0.1
     //const siteUrl = 'http://127.0.0.1:8881';
     const documentRoot = '/var/www/html';
 
