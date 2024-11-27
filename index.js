@@ -11,7 +11,7 @@ async function runWpNow() {
     // Create paths relative to this example file
     const projectPath = join(__dirname, 'wp-test');
     const absoluteUrl = 'http://0.0.0.0:8080';  // Changed to 127.0.0.1
-    //const siteUrl = 'http://127.0.0.1:8881';
+    //const siteUrl = 'http://localhost:8881';
     const documentRoot = '/var/www/html';
 
     // Ensure project directory exists
@@ -26,7 +26,7 @@ async function runWpNow() {
             phpVersion: '8.2',
             wordPressVersion: 'latest',
             mode: 'playground',
-            port: 8881,
+            port: 8080,
             reset: true,
             documentRoot,
             numberOfPhpInstances: 1,
